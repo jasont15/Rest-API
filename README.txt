@@ -1,0 +1,3 @@
+The purpose of this API is to help the user understand how APIs interact with HTTP requests. By using this code in conjunction with an API platform (I used Postman) and Node.js, a user can see how different HTTP requests are handled and what their functions are, namely GET, POST, PUT, and DELETE. The example data given in the code is the medical records of two fictitious people, Levi Johnson, and Erin Peterson.
+
+By using the proper headers and bodies in an HTTP request, the user will receive a message that the request was successful and can see how the data is then manipulated. If the HTTP request is incorrect, a corresponding error message will be returned. Users should send the HTTP requests to localhost:3000
